@@ -19,10 +19,10 @@ wget -O "$VORTEX_INSTALLER" "$VORTEX_URL"
 
 # Install .NET runtime
 wget -O dotnet-runtime.exe "$DOTNET_URL"
-~/.IArentBen/umu/umu-run dotnet-runtime.exe /q
+~/Vortex/umu/umu-run dotnet-runtime.exe /q
 
 # Install Vortex
-~/.IArentBen/umu/umu-run "$VORTEX_INSTALLER" /S
+~/Vortex/umu/umu-run "$VORTEX_INSTALLER" /S
 
 # Create desktop file
 mkdir -p ~/.local/share/applications

@@ -6,11 +6,11 @@ rm -rf ~/.vortex-linux/proton-builds/
 rm -rf ~/home/deck/Vortex/Vortex/vortex-linux
 
 echo "Templating files..."
-pushd ~/.IArentBen/steam-deck-master/
+pushd ~/Vortex/steam-deck-master/
 find . -type f -name "*.in" -exec sh -c 'envsubst < "$1" > "${1%.in}" && chmod +x "${1%.in}"' _ {} \;
 popd
 
-ln -sf ~/.IArentBen/steam-deck-master/update.desktop ~/Desktop/IArentBen-update.desktop
+ln -sf ~/Vortex/steam-deck-master/update.desktop ~/Desktop/IArentBen-update.desktop
 
 if [ ! -f "$HOME/.local/share/applications/vortex.desktop" ]; then
     echo "Creating Vortex install desktop shortcut..."

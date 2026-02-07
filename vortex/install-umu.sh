@@ -3,7 +3,7 @@ set -euxo pipefail
 
 UMU_VERSION="1.2.6"
 UMU_URL="https://github.com/Open-Wine-Components/umu-launcher/releases/download/$UMU_VERSION/umu-launcher-$UMU_VERSION-zipapp.tar"
-UMU_DIR="$HOME/.IArentBen/umu"
+UMU_DIR="$HOME/Vortex/umu"
 
 echo "Installing umu-launcher $UMU_VERSION..."
 
