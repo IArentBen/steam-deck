@@ -1,6 +1,6 @@
 #!/usr/bin/env xdg-open
 [Desktop Entry]
-Name=Install Pikdum's Tools
+Name=Install IArentBen's Tools
 Exec=curl https://raw.githubusercontent.com/IArentBen/steam-deck/master/install.sh | bash -s --
 Icon=steamdeck-gaming-return
 Terminal=true

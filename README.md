@@ -1,4 +1,4 @@
-# pikdum's steam deck tools
+# IArentBen's steam deck tools
 
 ## what is this
 
@@ -8,13 +8,13 @@ hopefully temporary solution until https://github.com/Nexus-Mods/NexusMods.App i
 
 ## install
 
-1. right click and save as [this install.desktop link](https://raw.githubusercontent.com/pikdum/steam-deck/master/install.desktop)
+1. right click and save as [this install.desktop link](https://raw.githubusercontent.com/IArentBen/steam-deck/master/install.desktop)
 2. go to the downloads folder, move the `install.desktop` file to the desktop, and double click to run it
 
 or
 
 ``` bash
-curl https://raw.githubusercontent.com/pikdum/steam-deck/master/install.sh | bash -s --
+curl https://raw.githubusercontent.com/IArentBen/steam-deck/master/install.sh | bash -s --
 ```
 
 ## vortex
@@ -142,7 +142,7 @@ using Skyrim as an example:
 
 ```bash
 # remove these tools
-rm -rf ~/.pikdum/
+rm -rf ~/.IArentBen/
 # remove vortex
 rm -rf ~/.vortex-linux/
 rm -rf ~/.local/share/applications/vortex.*
@@ -157,7 +157,7 @@ rm -rf ~/.local/share/applications/vortex.*
 rm -rf ~/stl/
 rm -rf ~/.config/steamtinkerlaunch/
 # remove these tools
-rm -rf ~/.pikdum/
-rm -rf ~/.local/share/applications/pikdum-vortex.desktop
+rm -rf ~/.IArentBen/
+rm -rf ~/.local/share/applications/IArentBen-vortex.desktop
 ```
 
